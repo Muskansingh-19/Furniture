@@ -42,7 +42,7 @@ const appRoute=createBrowserRouter([
             },
             {
 
-                path:"/shop",
+                path:"/Product",
                 element:<Category/>
             },
             {

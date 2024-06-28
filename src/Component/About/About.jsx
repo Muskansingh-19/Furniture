@@ -17,7 +17,7 @@ const About=()=>{
       <h1 className="about-heading">About us</h1>
      <div className="about-contents">
         <div className="about-left">
-         <p className="about-para">Panto is among the World's Largest Furniture Manufacturers offering a diverse range of modern and traditional furniture. Since Panto was established in 1986, it has achieved a rapid success and has expanded to over 240 showrooms in South Asia. Panto's success has grown from it's ability to produce high quality furniture at affordable prices with outstanding customer service.</p>
+         <p className="about-para">Wooden Street is among the World's Largest Furniture Manufacturers offering a diverse range of modern and traditional furniture. Since Panto was established in 1986, it has achieved a rapid success and has expanded to over 240 showrooms in South Asia. Panto's success has grown from it's ability to produce high quality furniture at affordable prices with outstanding customer service.</p>
          <div className="about-img1">
             <img src={Aboutimg1} alt="about-img1"/>
          </div>

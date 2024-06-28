@@ -9,11 +9,11 @@ import './Header.css';
  const Header=()=>{
     const location=useLocation();
 
-    const headerClass = location.pathname === ('/shop')|| (location.pathname.startsWith("/products/")) || location.pathname === ('/about')|| location.pathname === ('/contact') ||location.pathname === ('/Shopping-cart')? 'header' : '' ;
+    const headerClass = location.pathname === ('/Product')|| (location.pathname.startsWith("/products/")) || location.pathname === ('/about')|| location.pathname === ('/contact') ||location.pathname === ('/Shopping-cart')? 'header' : '' ;
 
-     const Cartt =location.pathname=== ('/shop') || (location.pathname.startsWith("/products/"))|| location.pathname === ('/about') || location.pathname === ('/contact') || location.pathname === ('/Shopping-cart')?'Cart':'cart';
+     const Cartt =location.pathname=== ('/Product') || (location.pathname.startsWith("/products/"))|| location.pathname === ('/about') || location.pathname === ('/contact') || location.pathname === ('/Shopping-cart')?'Cart':'cart';
 
-     const Cartcount=location.pathname=== ('/shop') || (location.pathname.startsWith("/products/"))|| location.pathname === ('/about') || location.pathname === ('/contact')||location.pathname === ('/Shopping-cart')?'cartnumber':'cart-number';
+     const Cartcount=location.pathname=== ('/Product') || (location.pathname.startsWith("/products/"))|| location.pathname === ('/about') || location.pathname === ('/contact')||location.pathname === ('/Shopping-cart')?'cartnumber':'cart-number';
      
      const cartItems=useSelector((store)=>store.cart.items);
    //console.log(cartItems);
@@ -27,13 +27,13 @@ import './Header.css';
 
      <Link to="/" className="text-link">     <div className="logo_container">
          <img src={Logo} alt="brand-logo"/>
-            <p className="brand_title">Panto</p>
+            <p className="brand_title">Wooden Street</p>
         </div>
         </Link> 
         <nav className="nav_link">
             <ul> 
                 <li><NavLink  to="/" className="text-link" onClick={()=>{ window.scrollTo(0, 0)}} >Home</NavLink></li>
-                <li><NavLink to="/shop" className="text-link" onClick={()=>{ window.scrollTo(0, 0)}}>Shop</NavLink></li>
+                <li><NavLink to="/Product" className="text-link" onClick={()=>{ window.scrollTo(0, 0)}}>Product</NavLink></li>
                 <li><NavLink to="/about"  className="text-link" onClick={()=>{ window.scrollTo(0, 0)}}>About Us</NavLink></li>
                 <li><NavLink to="/contact"  className="text-link" onClick={()=>{ window.scrollTo(0, 0)}}>Contact Us</NavLink></li>
             </ul>
