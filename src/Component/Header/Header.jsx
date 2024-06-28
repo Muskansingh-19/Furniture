@@ -27,7 +27,7 @@ import './Header.css';
 
      <Link to="/" className="text-link">     <div className="logo_container">
          <img src={Logo} alt="brand-logo"/>
-            <p className="brand_title">Wooden Street</p>
+            <p className="brand_title">Panto</p>
         </div>
         </Link> 
         <nav className="nav_link">
