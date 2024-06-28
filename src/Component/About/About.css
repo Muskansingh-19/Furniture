@@ -1,0 +1,126 @@
+.about{
+    height: 2100px; 
+    padding-top:10vw;
+    padding-bottom: 8vw;
+    /*border:1px solid black;*/
+    background-color: #f8f8f1;
+    
+    }
+    
+    .about-contents{
+        display: flex;
+        gap:8vw;
+        margin: 0 11vw;
+        /*border:1px solid black;*/
+    }
+    .about-left{
+    width: 55%;
+    }
+        
+    .about-heading{
+       font-family: 'gilroy-bold';
+       text-align: center;
+       text-transform: capitalize;
+       font-weight: 900;
+       color: #0a1a3c;
+       letter-spacing: 2px;
+       font-size: 30px;
+       margin-bottom: 4vw ;
+    }
+    .about-para{
+    color:#444444;
+    font-family: 'gilroy-light';
+    font-weight: 900;
+    font-size: 17px;
+    width: 87%;
+    text-align: justify;
+    margin-left: 0.6vw;
+    line-height: 1.5vw;
+    }
+    .about-img1{
+        width: 550px;
+        height: 320px;
+        margin-top: 4.3vw;
+    }
+    .about-img1 img{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .about-right{
+        width: 45%;
+        height: 550px;
+        
+        /*border: 1px solid black;*/
+        
+    }
+    .about-right img{
+        width: 400px;
+        height: 100%;
+    }
+    .about-detail-container{
+        display: flex;
+        gap: 2.5vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-details{
+        margin: 5vw 0;
+        width: 270px;
+        height: 350px;
+        padding:3vw 1vw;
+        box-shadow: 0 0 30px #0000001a;
+    }
+    
+    .about-details .imgg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .about-details h4{
+        text-align: center;
+        color: #c1a07f;
+        margin: 2vw 0;
+        font-size: 2.5vw;
+    }
+    .about-details p{
+        text-align: center;
+        color: #c1a07f;
+        font-weight: 800;
+        font-size: 1.3vw;
+    }
+    .personimg{
+        width: 300px;
+        height: 350px;
+    }
+    .personimg img{
+        width:100%;
+        height:100%;
+    }
+    .meetteam{
+        margin: 6vw 0;
+    }
+    .meetteam h1{
+        text-align: center;
+        font-size: 3.5vw;
+        margin-bottom: 3vw;
+    }
+    .teamcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2vw;
+    }
+    .person h3{
+        text-align: center;
+        font-size: 2vw;
+        margin: 1vw 0;
+    }
+    .person p{
+        text-align: center;
+        font-size: 1.5vw;
+        margin: 1vw 0;
+        color: #ABABAB;
+    }

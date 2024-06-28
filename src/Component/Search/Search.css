@@ -1,0 +1,36 @@
+.search{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.search input{
+    padding: 1.7vw 1.4vw;
+    width: 300px;
+    height: 50px;
+    font-size: 1.2vw;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    color: #ffffff; 
+}
+::placeholder{
+    color:#ffffff ;
+}
+input:focus {
+    outline: none;
+}
+.searchline{
+    position: absolute;
+    right: 40.4vw;
+    border: none;
+    color: white;
+    background-color: #E98413;
+    width: 35px;
+    height: auto;
+    padding: 0.5vw;
+    border-radius: 30px;
+    cursor: pointer;
+
+}

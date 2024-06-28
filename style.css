@@ -1,0 +1,70 @@
+/*Gobal-style */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  input,select,textarea,button {
+  outline: none;
+}
+.text-link {
+    color: inherit;
+    text-decoration:none;
+    display: inline-block;
+}
+.text-link:hover{
+    color: #e99c2e;
+}
+.nav_link a.active{
+    color:#e99c2e;
+    font-weight: 800;
+}
+/* */
+.react-roast{
+    position: absolute;
+    top:6vw;
+   /* border: 1px solid red;*/
+}
+/*header-style*/
+
+/*hero-style*/
+
+/*best_product*/
+
+
+
+/* experience*/
+/* material*/
+
+/*review*/
+
+
+/*footer-style */
+  
+/*shop page styiling ---.header*/
+
+/*catergories-style*/
+
+/*product -(in catergory) */
+
+/*single-product.css */
+
+/*about-style */
+
+/*Contact-style */
+
+/* Trending style*/
+
+
+/*cart-page-style */
